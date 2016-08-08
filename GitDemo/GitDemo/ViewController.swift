@@ -9,6 +9,8 @@
 import UIKit
 /*
     M代表修改
+    A代表增加
+    pull下载刷新别人写完的代码
  
  */
 class ViewController: UIViewController {
