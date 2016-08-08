@@ -12,6 +12,8 @@
 		0615954C1D5818B9009F4F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0615954A1D5818B9009F4F95 /* Main.storyboard */; };
 		0615954E1D5818B9009F4F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0615954D1D5818B9009F4F95 /* Assets.xcassets */; };
 		061595511D5818B9009F4F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0615954F1D5818B9009F4F95 /* LaunchScreen.storyboard */; };
+		061595591D581EF9009F4F95 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061595581D581EF9009F4F95 /* AddViewController.swift */; };
+		0615955B1D581FE3009F4F95 /* AddBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615955A1D581FE3009F4F95 /* AddBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0615954D1D5818B9009F4F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061595501D5818B9009F4F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061595521D5818B9009F4F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		061595581D581EF9009F4F95 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		0615955A1D581FE3009F4F95 /* AddBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddBViewController.swift; path = GitDemo/AddBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		0615953A1D5818B9009F4F95 = {
 			isa = PBXGroup;
 			children = (
+				0615955A1D581FE3009F4F95 /* AddBViewController.swift */,
 				061595451D5818B9009F4F95 /* GitDemo */,
 				061595441D5818B9009F4F95 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				0615954D1D5818B9009F4F95 /* Assets.xcassets */,
 				0615954F1D5818B9009F4F95 /* LaunchScreen.storyboard */,
 				061595521D5818B9009F4F95 /* Info.plist */,
+				061595581D581EF9009F4F95 /* AddViewController.swift */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				061595491D5818B9009F4F95 /* ViewController.swift in Sources */,
+				0615955B1D581FE3009F4F95 /* AddBViewController.swift in Sources */,
 				061595471D5818B9009F4F95 /* AppDelegate.swift in Sources */,
+				061595591D581EF9009F4F95 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
